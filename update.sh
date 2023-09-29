@@ -32,6 +32,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/yashiraan/vip/main/limit/menu.zip
     7z e -p123 menu.zip
+    unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     rm -rf menu
