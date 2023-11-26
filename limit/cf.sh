@@ -1,15 +1,10 @@
-#!/bin/bash
-# Edition : Stable Edition V3.0
-# Auther  : Geo Project
-# (C) Copyright 2023
-# =========================================
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
 read -rp "Sub Domain (Contoh: Myrid112): " -e sub
 DOMAIN=ridwanvpn.games
 SUB_DOMAIN=${sub}.ridwanvpn.games
-CF_ID=ziexyuan@gmail.com
+CF_ID=sariphidayatuloh366@gmail.com
 CF_KEY=2fbf0739b65e1e4b6de396b11a9693fc6aa56
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
